@@ -1,25 +1,8 @@
-.body{
-    background-color: #fffbf7;
-}
+
 
 .container-header{
 
     width: 100%;
-    height: 200px;
-    background-color: gray;
-}
-
-.container-section-promo{
-    display: flex;
-    width: 70%;
-    margin: 100px auto;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.item-article{
-    width: 30%;
-    height: 100px;
+    height: 400px;
     background-color: gray;
 }
