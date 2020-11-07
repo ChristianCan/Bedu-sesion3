@@ -13,9 +13,6 @@
     display: flex;
     width: 100%;
     margin: 100px auto;
-    align-items: flex-start;
-    flex-direction: column;
-
 }
 
 .item-article{
@@ -29,6 +26,7 @@
   }
   
   .item-article > p {
+    font-family: "Candara";
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
@@ -40,11 +38,13 @@
   }
   
   .item-article > form p {
+    font-family: "Candara";
     color: #025157;
     margin-right: 18px;
   }
 
   .item-article button{
+    font-family: "Candara";
     color: white;
     background-color: #025157;
     padding-right: 14px;
@@ -56,9 +56,21 @@
 }
 
 .item-article input{
+    font-family: "Candara";
     padding-right: 14px;
     padding-left: 14px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 5px;
 }
+
+.image-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image img {
+    width: 120px;
+    margin-top: 10px;
+  }
